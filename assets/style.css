@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+*{
+    font-family: Lato;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rebeccapurple;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    min-width: 100vw;
+}
+
+.loginForm {
+    display: flex;
+    flex-flow: column;
+}
+
+span {
+    margin: 10px 0;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+}
+
+.title {
+    font-size: 3.8em;
+}
+
+.logInButton {
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: right;
+    font-size: 18px;
+}
+
+.welcome {
+    font-size: 42px;
+}
