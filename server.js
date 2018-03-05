@@ -6,11 +6,11 @@ app.set('views', './views');
 
 app.use('/static', express.static('assets'));
 
-app.get('/', function(req, res) {
+app.get('/auth/google', function(req, res) {
     res.render('login');
 });
 
-app.get('/auth/google', function(req, res) {
+app.get('/main', function(req, res) {
     res.render('main');
 });
 
